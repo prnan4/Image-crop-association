@@ -1,0 +1,20 @@
+Dependencies: Type the following in terminal to install the OpenCV Dependency
+!pip install opencv-python 
+
+---------------------------------
+To run find_association.py:
+
+1.Save python file find_association.py inside the sample_testset directory.
+2.To run the file, type in terminal
+	python find_association.py
+Note: The execution time can take upto 15-20 minutes to parse through all the images in the given set.
+
+The output file output_json.json is created and result is stored in the same.
+
+---------------------------------
+To run evaluate.py:
+
+1. Make sure output.json and out_res.json are inside sample_testset directory.
+2. Save python file evaluate.py inside the sample_testset directory.
+3. To run the file, type in terminal
+	python evaluate.py
